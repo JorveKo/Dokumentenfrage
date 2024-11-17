@@ -81,7 +81,7 @@ except Exception as e:
     logger.error(f"Failed to register routes: {str(e)}")
     raise
 
-# Import websockets
+# Import websockets!
 print("Setting up websockets...")
 try:
     from app.websockets import *

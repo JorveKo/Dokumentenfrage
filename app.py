@@ -22,12 +22,12 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 import uvicorn
 
-# Download required NLTK data
+# Download required NLTK dat
 nltk.download('wordnet', quiet=True)
 nltk.download('punkt', quiet=True)
 nltk.download('averaged_perceptron_tagger', quiet=True)
 
-# Konstanten
+# Konstanten für die Google API
 from secure_api_credentials import GOOGLE_API_KEY, GOOGLE_CSE_ID
 from googleapiclient.discovery import build
 

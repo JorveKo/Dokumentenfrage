@@ -28,8 +28,14 @@ nltk.download('punkt', quiet=True)
 nltk.download('averaged_perceptron_tagger', quiet=True)
 
 # Konstanten
-GOOGLE_API_KEY = "AIzaSyC1h-KgNXVujHJINBQOPsg7p41gZPJYvyk"
-GOOGLE_CSE_ID = "e0a75c7cde2904a52"
+from secure_api_credentials import GOOGLE_API_KEY, GOOGLE_CSE_ID
+from googleapiclient.discovery import build
+
+drive_service = build('drive', 'v3', developerKey=GOOGLE_API_KEY)
+
+
+# Rest of your web scraper code
+
 DOWNLOAD_FOLDER = "Downloads"
 MONGODB_URI = "mongodb://localhost:27017/"
 DB_NAME = "document_scraper"

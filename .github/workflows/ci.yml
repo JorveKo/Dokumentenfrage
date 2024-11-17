@@ -1,0 +1,51 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v2
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        registry: ghcr.io
+        repository: your-username/your-repo
+        tag_with_ref: true
+        
+    - name: Deploy to production
+      env:
+        GOOGLE_API_TOKEN: ${{ secrets.GOOGLE_API_TOKEN }}
+        GOOGLE_API_REFRESH_TOKEN: ${{ secrets.GOOGLE_API_REFRESH_TOKEN }}
+        GOOGLE_API_CLIENT_ID: ${{ secrets.GOOGLE_API_CLIENT_ID }}
+        GOOGLE_API_CLIENT_SECRET: ${{ secrets.GOOGLE_API_CLIENT_SECRET }}
+      run: |
+        docker pull ghcr.io/your-username/your-repo:${{ github.ref_name }}
+        docker run -e GOOGLE_API_TOKEN -e GOOGLE_API_REFRESH_TOKEN -e GOOGLE_API_CLIENT_ID -e GOOGLE_API_CLIENT_SECRET ghcr.io/your-username/your-repo:${{ github.ref_name }}
+```
+
+Here's how this pipeline works:
+
+1. The pipeline is triggered on a push event to the `main` branch.
+2. It uses the Docker Build-Push Action to build a Docker image from your code and push it to the GitHub Container Registry (ghcr.io).
+3. In the deployment step, the pipeline pulls the Docker image and runs it, passing the required API credentials as environment variables.
+
+The key differences compared to the previous example are:
+
+1. The pipeline uses the Docker Build-Push Action to create and push a Docker image.
+2. The deployment step pulls the Docker image and runs it, passing the API credentials as environment variables.
+3. The API credentials are still stored as GitHub secrets, which are injected into the Docker container at runtime.
+
+By using Docker and a CI/CD pipeline, you can ensure that your API credentials are never stored in your application code, even in the Docker image. The sensitive information is only present at runtime, when the container is executed.
+
+Remember to replace `your-username` and `your-repo` with your actual GitHub username and repository name. Also, make sure to create the necessary GitHub secrets for your Docker registry credentials (`DOCKER_USERNAME` and `DOCKER_PASSWORD`) and the Google API credentials.
+
+Let me know if you have any other questions!

@@ -1,0 +1,114 @@
+/* static/css/theme.css */
+:root {
+    /* Core Colors */
+    --matrix-primary: #00ff00;
+    --matrix-secondary: #007700;
+    --matrix-background: #000000;
+    --matrix-surface: #001100;
+    --matrix-error: #ff0000;
+    --matrix-warning: #ffff00;
+    --matrix-success: #00ff00;
+    --matrix-info: #00ffff;
+    
+    /* Text Colors */
+    --matrix-text-primary: var(--matrix-primary);
+    --matrix-text-secondary: #88ff88;
+    --matrix-text-disabled: #004400;
+    --matrix-text-error: var(--matrix-error);
+    
+    /* Effects */
+    --matrix-glow: 0 0 10px var(--matrix-primary);
+    --matrix-glow-strong: 0 0 20px var(--matrix-primary);
+    --matrix-glow-error: 0 0 10px var(--matrix-error);
+    
+    /* Borders */
+    --matrix-border-color: var(--matrix-primary);
+    --matrix-border-width: 1px;
+    --matrix-border-radius: 4px;
+    
+    /* Transitions */
+    --matrix-transition-fast: 0.2s;
+    --matrix-transition-normal: 0.3s;
+    --matrix-transition-slow: 0.5s;
+    
+    /* Shadows */
+    --matrix-shadow-sm: 0 1px 2px rgba(0, 255, 0, 0.1);
+    --matrix-shadow: 0 2px 4px rgba(0, 255, 0, 0.2);
+    --matrix-shadow-lg: 0 4px 6px rgba(0, 255, 0, 0.3);
+    
+    /* Z-index Layers */
+    --z-background: -1;
+    --z-base: 0;
+    --z-above: 1;
+    --z-modal: 100;
+    --z-notification: 1000;
+    
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+    --matrix-primary: #00cc00;
+    --matrix-secondary: #006600;
+    --matrix-text-primary: #00cc00;
+    --matrix-text-secondary: #008800;
+}
+
+/* High Contrast Theme */
+[data-theme='high-contrast'] {
+    --matrix-primary: #00ff00;
+    --matrix-secondary: #ffffff;
+    --matrix-text-primary: #ffffff;
+    --matrix-text-secondary: #00ff00;
+    --matrix-glow: 0 0 15px var(--matrix-primary);
+}
+
+/* Base Elements */
+body {
+    background-color: var(--matrix-background);
+    color: var(--matrix-text-primary);
+    transition: background-color var(--matrix-transition-normal),
+                color var(--matrix-transition-normal);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--matrix-text-primary);
+    font-family: 'Courier New', monospace;
+}
+
+/* Focus States */
+:focus {
+    outline: none;
+    box-shadow: var(--matrix-glow);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--matrix-background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--matrix-secondary);
+    border-radius: var(--matrix-border-radius);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--matrix-primary);
+}
+
+/* Selection */
+::selection {
+    background-color: var(--matrix-primary);
+    color: var(--matrix-background);
+}

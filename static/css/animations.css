@@ -1,0 +1,97 @@
+/* static/css/animations.css */
+/* Matrix Rain Effect */
+@keyframes matrixRain {
+    0% { transform: translateY(-100%); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { transform: translateY(1000%); opacity: 0; }
+}
+
+/* Scanning Line */
+@keyframes scan {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100%); }
+}
+
+/* Glitch Effect */
+@keyframes glitch {
+    0% { transform: none; opacity: 1; }
+    7% { transform: skew(-0.5deg, -0.9deg); opacity: 0.75; }
+    10% { transform: none; opacity: 1; }
+    27% { transform: none; opacity: 1; }
+    30% { transform: skew(0.8deg, -0.1deg); opacity: 0.75; }
+    35% { transform: none; opacity: 1; }
+    52% { transform: none; opacity: 1; }
+    55% { transform: skew(-1deg, 0.2deg); opacity: 0.75; }
+    50% { transform: none; opacity: 1; }
+    72% { transform: none; opacity: 1; }
+    75% { transform: skew(0.4deg, 1deg); opacity: 0.75; }
+    80% { transform: none; opacity: 1; }
+    100% { transform: none; opacity: 1; }
+}
+
+/* Pulsing Effect */
+@keyframes pulse {
+    0% { opacity: 0.5; filter: brightness(0.5); }
+    50% { opacity: 1; filter: brightness(1.2); }
+    100% { opacity: 0.5; filter: brightness(0.5); }
+}
+
+/* Fade Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
+}
+
+/* Loading Spinner */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Progress Bar Glow */
+@keyframes progressGlow {
+    0% { box-shadow: 0 0 5px var(--matrix-primary); }
+    50% { box-shadow: 0 0 20px var(--matrix-primary); }
+    100% { box-shadow: 0 0 5px var(--matrix-primary); }
+}
+
+/* TypeWriter Effect */
+@keyframes typeWriter {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Utility Classes */
+.animate-rain { animation: matrixRain 2s linear infinite; }
+.animate-scan { animation: scan 2s linear infinite; }
+.animate-glitch { animation: glitch 3s infinite; }
+.animate-pulse { animation: pulse 2s infinite; }
+.animate-fade-in { animation: fadeIn 0.3s ease-out; }
+.animate-fade-out { animation: fadeOut 0.3s ease-out; }
+.animate-spin { animation: spin 1s linear infinite; }
+.animate-progress { animation: progressGlow 2s infinite; }
+.animate-type { animation: typeWriter 3s steps(40, end); }
+
+/* Timing Variations */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* Duration Variations */
+.duration-fast { animation-duration: 0.3s; }
+.duration-normal { animation-duration: 0.5s; }
+.duration-slow { animation-duration: 0.8s; }
+
+/* Animation Modifiers */
+.animate-once { animation-iteration-count: 1; }
+.animate-infinite { animation-iteration-count: infinite; }
+.animate-reverse { animation-direction: reverse; }
+.animate-alternate { animation-direction: alternate; }

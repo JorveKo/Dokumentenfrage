@@ -1,0 +1,49 @@
+2024-11-16 18:12:17,635 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:12:21,476 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:12:24,943 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:12:28,481 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:12:32,428 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:12:37,300 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:12:43,683 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:12:52,833 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:13:08,492 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:13:37,744 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:14:32,617 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:22:15,879 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:22:19,651 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:22:23,474 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:22:27,474 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:22:31,752 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:22:36,647 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:22:42,782 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:22:52,459 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:23:08,663 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:34:11,193 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 18:34:11,211 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-11-16 18:34:11,211 - app.websockets - INFO - Static files path: /app/static
+2024-11-16 18:34:11,212 - app.websockets - INFO - Templates path: /app/templates
+2024-11-16 18:34:11,212 - app.websockets - INFO - Static directory found: /app/static
+2024-11-16 18:34:11,213 - app.websockets - INFO - Templates directory found: /app/templates
+2024-11-16 18:34:11,214 - app.websockets - INFO - Logs directory found: /app/logs
+2024-11-16 18:34:11,215 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-11-16 18:48:15,156 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-11-16 18:48:15,157 - app.websockets - INFO - Static files path: /app/static
+2024-11-16 18:48:15,158 - app.websockets - INFO - Templates path: /app/templates
+2024-11-16 18:48:15,159 - app.websockets - INFO - Static directory found: /app/static
+2024-11-16 18:48:15,162 - app.websockets - INFO - Templates directory found: /app/templates
+2024-11-16 18:48:15,163 - app.websockets - INFO - Logs directory found: /app/logs
+2024-11-16 18:48:15,165 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-11-16 19:00:23,189 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-16 19:00:23,209 - app - INFO - API routes registered successfully
+2024-11-16 19:00:23,213 - app.websockets - INFO - WebSockets setup complete
+2024-11-16 19:00:23,228 - app.__init__ - INFO - API routes registered successfully
+2024-11-16 19:00:23,231 - app.websockets - INFO - WebSockets setup complete
+2024-11-16 19:00:23,234 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-11-16 19:00:23,234 - app.websockets - INFO - Static files path: /app/static
+2024-11-16 19:00:23,235 - app.websockets - INFO - Templates path: /app/templates
+2024-11-16 19:00:23,237 - app.websockets - INFO - Static directory found: /app/static
+2024-11-16 19:00:23,238 - app.websockets - INFO - Templates directory found: /app/templates
+2024-11-16 19:00:23,239 - app.websockets - INFO - Logs directory found: /app/logs
+2024-11-16 19:00:23,240 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-11-16 19:01:56,516 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6738ec062c3f760988a9974d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-11-16 19:17:23,324 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6738efa52c3f760988a9974e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>

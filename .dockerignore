@@ -1,0 +1,11 @@
+# Diese Dateien werden NICHT in den Docker-Container kopiert
+__pycache__      # Python Cache-Dateien
+*.pyc            # Kompilierte Python-Dateien
+.env             # Environment-Dateien
+.git             # Git-Verzeichnis
+.gitignore
+.pytest_cache    # Test-Cache
+downloads/*      # Download-Ordner
+logs/*          # Log-Ordner
+venv/           # Virtuelle Umgebung (falls vorhanden)
+.DS_Store       # Mac-Systemdateien

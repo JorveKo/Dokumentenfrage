@@ -1,0 +1,39 @@
+# docker-compose.yml
+# version: '3.8'  <- Diese Zeile entfernen
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"  # wichtig: "host:container"
+    volumes:
+      - ./downloads:/app/downloads
+      - ./logs:/app/logs
+    # ... Rest bleibt gleich
+    env_file:
+      - docker/config/development.env
+    depends_on:
+      - mongodb
+    networks:
+      - scraper-network
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+      - ./docker/scripts/init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh:ro
+    env_file:
+      - docker/config/development.env
+    networks:
+      - scraper-network
+    restart: unless-stopped
+
+volumes:
+  mongodb_data:
+
+networks:
+  scraper-network:
+    driver: bridge

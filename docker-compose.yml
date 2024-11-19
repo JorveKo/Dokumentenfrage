@@ -1,39 +1,34 @@
-# docker-compose.yml
-# version: '3.8'  <- Diese Zeile entfernen
+version: '3.8'  # Docker Compose Version
 
 services:
   web:
-    build: .
+    build: .  # Verzeichnis mit dem Dockerfile
     ports:
-      - "5000:5000"  # wichtig: "host:container"
+      - "5000:5000"  # Zugriff auf die Web-App
     volumes:
-      - ./downloads:/app/downloads
-      - ./logs:/app/logs
-    # ... Rest bleibt gleich
-    env_file:
-      - docker/config/development.env
+      - ./downloads:/app/downloads  # Verzeichnis für heruntergeladene Dateien
+      - ./logs:/app/logs  # Verzeichnis für Logs
     depends_on:
-      - mongodb
+      - mongodb  # MongoDB-Service muss vor dem Web-Service starten
     networks:
       - scraper-network
-    restart: unless-stopped
+    restart: unless-stopped  # Automatisch neustarten, wenn der Container stoppt
 
   mongodb:
-    image: mongo:latest
+    image: mongo:latest  # Offizielles MongoDB-Image
     ports:
-      - "27017:27017"
+      - "27017:27017"  # Zugriff auf MongoDB
     volumes:
-      - mongodb_data:/data/db
-      - ./docker/scripts/init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh:ro
+      - mongodb_data:/data/db  # Persistente Speicherung der MongoDB-Daten
     env_file:
-      - docker/config/development.env
+      - docker/config/development.env  # Umgebungsvariablen für MongoDB
     networks:
       - scraper-network
     restart: unless-stopped
 
 volumes:
-  mongodb_data:
+  mongodb_data:  # Definiertes Volume für MongoDB-Daten
 
 networks:
-  scraper-network:
+  scraper-network:  # Netzwerk für die Services
     driver: bridge

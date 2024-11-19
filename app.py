@@ -40,3 +40,7 @@ async def api_start_scraping(term: str, file_type: str, max_results: int = 10):
     """Startet den Scraping-Prozess"""
     results = scraper.search_documents(term, file_type, max_results)
     return {"status": "success", "results": results}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("app:app", host="0.0.0.0", port=5000, reload=True)

@@ -47,3 +47,15 @@
 2024-11-16 19:00:23,240 - app.websockets - INFO - Logo found: /app/static/images/logo.png
 2024-11-16 19:01:56,516 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6738ec062c3f760988a9974d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
 2024-11-16 19:17:23,324 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6738efa52c3f760988a9974e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-11-18 19:11:34,581 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-11-18 19:11:34,601 - app - INFO - API routes registered successfully
+2024-11-18 19:11:34,606 - app.websockets - INFO - WebSockets setup complete
+2024-11-18 19:11:34,618 - app.__init__ - INFO - API routes registered successfully
+2024-11-18 19:11:34,619 - app.websockets - INFO - WebSockets setup complete
+2024-11-18 19:11:34,620 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-11-18 19:11:34,621 - app.websockets - INFO - Static files path: /app/static
+2024-11-18 19:11:34,621 - app.websockets - INFO - Templates path: /app/templates
+2024-11-18 19:11:34,622 - app.websockets - INFO - Static directory found: /app/static
+2024-11-18 19:11:34,622 - app.websockets - INFO - Templates directory found: /app/templates
+2024-11-18 19:11:34,623 - app.websockets - INFO - Logs directory found: /app/logs
+2024-11-18 19:11:34,624 - app.websockets - INFO - Logo found: /app/static/images/logo.png

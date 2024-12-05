@@ -4,7 +4,9 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from scraper import DocumentScraper
+from app.core.scraper import scraper_engine  # Verwende die Core-Version
+from app.routes import router
+from app.websockets import websocket_manager
 from dotenv import load_dotenv
 
 # Lade Umgebungsvariablen aus der .env-Datei
@@ -21,25 +23,18 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
-# Logging einrichten
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# Router und WebSocket-Handler einbinden
+app.include_router(router)
 
-# Scraper-Instanz erstellen
-scraper = DocumentScraper(GOOGLE_API_KEY, GOOGLE_CSE_ID)
-
-
-@app.get("/", response_class=HTMLResponse)
-async def get_index():
-    """Dashboard anzeigen"""
-    return templates.TemplateResponse("index.html", {"request": {}})
-
-
-@app.post("/api/start")
-async def api_start_scraping(term: str, file_type: str, max_results: int = 10):
-    """Startet den Scraping-Prozess"""
-    results = scraper.search_documents(term, file_type, max_results)
-    return {"status": "success", "results": results}
+@app.websocket("/ws/{client_id}")
+async def websocket_endpoint(websocket: WebSocket, client_id: str):
+    await websocket_manager.connect(websocket, client_id)
+    try:
+        while True:
+            data = await websocket.receive_json()
+            await websocket_manager.handle_message(websocket, data)
+    except WebSocketDisconnect:
+        await websocket_manager.disconnect(websocket)
 
 if __name__ == "__main__":
     import uvicorn

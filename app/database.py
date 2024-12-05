@@ -246,5 +246,33 @@ class DatabaseManager:
             logger.error(f"Fehler beim Bereinigen alter Dokumente: {str(e)}")
             return 0
 
+    async def get_recent_documents(self, limit: int = 10) -> List[Dict]:
+        """Holt die neuesten Dokumente, sortiert nach Zeitstempel"""
+        try:
+            documents = await self.db.documents.find() \
+                .sort("timestamp", -1) \
+                .limit(limit) \
+                .to_list(length=limit)
+            
+            return [{
+                "title": doc.get("title", "Untitled"),
+                "file_type": doc.get("file_type", "unknown"),
+                "size": doc.get("size", 0),
+                "timestamp": doc.get("timestamp"),
+                "term": doc.get("term", ""),
+                "success": doc.get("success", False)
+            } for doc in documents]
+        except Exception as e:
+            logger.error(f"Fehler beim Abrufen der Dokumente: {str(e)}")
+            return []
+
+    async def get_document_count(self) -> int:
+        """Gibt die Gesamtanzahl der Dokumente zurück"""
+        try:
+            return await self.db.documents.count_documents({})
+        except Exception as e:
+            logger.error(f"Fehler beim Zählen der Dokumente: {str(e)}")
+            return 0
+
 # Globale Datenbankinstanz
 db_manager = DatabaseManager()

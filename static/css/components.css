@@ -225,3 +225,12 @@
     max-width: 500px;
     width: 90%;
 }
+
+.matrix-document-item {
+    @apply bg-black/20 border border-matrix-green/30 rounded p-3 
+           hover:border-matrix-green/60 transition-colors;
+}
+
+.matrix-document-item:hover {
+    @apply bg-black/30;
+}

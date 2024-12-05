@@ -242,3 +242,15 @@ async def health_check():
             "status": "unhealthy",
             "error": str(e)
         }
+
+@router.get("/api/documents/recent")
+async def get_recent_documents(limit: int = 10):
+    """Holt die neuesten Dokumente"""
+    try:
+        documents = await db_manager.get_recent_documents(limit=limit)
+        return {
+            "documents": documents,
+            "total_count": await db_manager.get_document_count()
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

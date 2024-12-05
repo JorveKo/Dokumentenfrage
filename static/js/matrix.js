@@ -431,6 +431,51 @@ handleWebSocketMessage(data) {
             break;
     }
 }
+
+async updateRecentDocuments() {
+    try {
+        const response = await fetch('/api/documents/recent');
+        const data = await response.json();
+        
+        const recentDocs = document.getElementById('recentDocuments');
+        document.getElementById('displayedCount').textContent = 
+            data.documents.length;
+        document.getElementById('totalCount').textContent = 
+            data.total_count;
+
+        recentDocs.innerHTML = data.documents
+            .map(doc => `
+                <div class="matrix-document-item fade-in">
+                    <div class="flex justify-between items-center">
+                        <span class="font-medium truncate" title="${doc.title}">
+                            ${doc.title}
+                        </span>
+                        <span class="text-sm opacity-75">
+                            ${MatrixUtils.format.bytes(doc.size)}
+                        </span>
+                    </div>
+                    <div class="flex justify-between text-sm opacity-75">
+                        <span>${doc.file_type.toUpperCase()}</span>
+                        <span>${new Date(doc.timestamp).toLocaleString()}</span>
+                    </div>
+                    <div class="text-sm opacity-75">
+                        Search term: ${doc.term}
+                    </div>
+                </div>
+            `)
+            .join('');
+    } catch (error) {
+        this.showNotification('Failed to load recent documents', 'error');
+    }
+}
+
+async handleStatusUpdate(status) {
+    this.updateStatusDisplay(status);
+    this.updateStatsDisplay(status);
+    if (status.downloaded_files > 0) {
+        await this.updateRecentDocuments();
+    }
+}
 }
 
 // Initialize on DOM Load
@@ -438,3 +483,5 @@ document.addEventListener('DOMContentLoaded', () => {
 new MatrixRain();
 window.dashboard = new DashboardController();
 });
+
+// End of File

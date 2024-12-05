@@ -70,3 +70,425 @@
 2024-11-19 18:32:27,249 - app.websockets - INFO - Templates directory found: /app/templates
 2024-11-19 18:32:27,251 - app.websockets - INFO - Logs directory found: /app/logs
 2024-11-19 18:32:27,251 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 00:18:20,740 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-05 00:18:20,770 - app - INFO - API routes registered successfully
+2024-12-05 00:18:20,773 - app.websockets - INFO - WebSockets setup complete
+2024-12-05 00:18:20,774 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-05 00:18:20,775 - app.websockets - INFO - Static files path: /app/static
+2024-12-05 00:18:20,776 - app.websockets - INFO - Templates path: /app/templates
+2024-12-05 00:18:20,777 - app.websockets - INFO - Static directory found: /app/static
+2024-12-05 00:18:20,779 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-05 00:18:20,782 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-05 00:18:20,783 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 00:20:17,537 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-05 00:24:25,552 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-05 00:24:25,580 - app - INFO - API routes registered successfully
+2024-12-05 00:24:25,586 - app.websockets - INFO - WebSockets setup complete
+2024-12-05 00:24:25,590 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-05 00:24:25,591 - app.websockets - INFO - Static files path: /app/static
+2024-12-05 00:24:25,593 - app.websockets - INFO - Templates path: /app/templates
+2024-12-05 00:24:25,594 - app.websockets - INFO - Static directory found: /app/static
+2024-12-05 00:24:25,595 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-05 00:24:25,597 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-05 00:24:25,598 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 00:42:49,912 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-05 00:43:22,742 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-05 00:43:22,769 - app - INFO - API routes registered successfully
+2024-12-05 00:43:22,776 - app.websockets - INFO - WebSockets setup complete
+2024-12-05 00:43:22,778 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-05 00:43:22,779 - app.websockets - INFO - Static files path: /app/static
+2024-12-05 00:43:22,780 - app.websockets - INFO - Templates path: /app/templates
+2024-12-05 00:43:22,780 - app.websockets - INFO - Static directory found: /app/static
+2024-12-05 00:43:22,781 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-05 00:43:22,782 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-05 00:43:22,783 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 00:54:30,113 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-05 00:55:18,883 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-05 00:55:18,908 - app - INFO - API routes registered successfully
+2024-12-05 00:55:18,912 - app.websockets - INFO - WebSockets setup complete
+2024-12-05 00:55:18,914 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-05 00:55:18,914 - app.websockets - INFO - Static files path: /app/static
+2024-12-05 00:55:18,915 - app.websockets - INFO - Templates path: /app/templates
+2024-12-05 00:55:18,916 - app.websockets - INFO - Static directory found: /app/static
+2024-12-05 00:55:18,917 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-05 00:55:18,918 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-05 00:55:18,918 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 00:55:41,375 - app.websockets - INFO - Neue WebSocket-Verbindung: client_hudrbd95n
+2024-12-05 00:55:41,376 - app.websockets - ERROR - Fehler in handle_websocket: Object of type datetime is not JSON serializable
+2024-12-05 00:55:41,376 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_hudrbd95n
+2024-12-05 00:56:25,481 - root - ERROR - Fehler bei der Begriffserweiterung: module 'nltk.stem.wordnet' has no attribute 'synsets'
+2024-12-05 00:56:25,481 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag'}
+2024-12-05 00:56:25,678 - app.core.scraper - ERROR - Fehler bei der Google-Suche: <HttpError 400 when requesting https://customsearch.googleapis.com/customsearch/v1?q=Vertrag+filetype%3AFileType.PDF&cx=e0a75c7cde2904a52&start=1&num=5&key=AIzaSyC1h-KgNXVujHJINBQOPsg7p41gZPJYvyk&alt=json returned "API key expired. Please renew the API key.". Details: "[{'message': 'API key expired. Please renew the API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2024-12-05 00:56:25,680 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: Vertrag
+2024-12-05 00:56:25,681 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-05 00:56:25,684 - app.core.scraper - INFO - 
+            Session Vertrag_1733360185.48032 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 0.20 Sekunden
+            
+2024-12-05 00:56:41,549 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fa2b5bb87e11fb04fa61, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 00:57:11,675 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fa495bb87e11fb04fa62, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 00:57:41,801 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fa675bb87e11fb04fa63, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 00:58:11,926 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fa855bb87e11fb04fa64, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 00:58:42,027 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750faa35bb87e11fb04fa65, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 00:59:12,124 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fac25bb87e11fb04fa66, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 00:59:42,205 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fae05bb87e11fb04fa67, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:00:18,628 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fb045bb87e11fb04fa68, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:00:48,706 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fb225bb87e11fb04fa69, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:01:18,788 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fb405bb87e11fb04fa6a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:01:48,870 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fb5e5bb87e11fb04fa6b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:02:18,950 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fb7c5bb87e11fb04fa6c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:03:18,617 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fbb85bb87e11fb04fa6d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:04:18,623 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fbf45bb87e11fb04fa6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:05:18,632 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fc305bb87e11fb04fa6f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:06:18,625 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fc6c5bb87e11fb04fa70, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:07:07,199 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fc9d5bb87e11fb04fa71, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:07:31,671 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fcb55bb87e11fb04fa72, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:07:42,058 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fcbf5bb87e11fb04fa73, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:08:18,671 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fce45bb87e11fb04fa74, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:09:18,684 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fd205bb87e11fb04fa75, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:10:01,456 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fd4b5bb87e11fb04fa76, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:10:31,547 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fd695bb87e11fb04fa77, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:11:01,637 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fd875bb87e11fb04fa78, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:11:31,732 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fda55bb87e11fb04fa79, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:12:18,687 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fdd45bb87e11fb04fa7a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:12:48,820 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fdf25bb87e11fb04fa7b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:13:18,899 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fe105bb87e11fb04fa7c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:14:12,702 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fe465bb87e11fb04fa7d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:14:42,790 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fe645bb87e11fb04fa7e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:15:12,868 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fe825bb87e11fb04fa7f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:16:12,709 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750febe5bb87e11fb04fa80, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:17:13,710 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fefb5bb87e11fb04fa81, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:18:14,720 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750ff385bb87e11fb04fa82, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:19:15,745 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750ff755bb87e11fb04fa83, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:20:10,530 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750ffac5bb87e11fb04fa84, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:20:41,741 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750ffcb5bb87e11fb04fa85, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:21:18,750 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6750fff05bb87e11fb04fa86, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:22:18,744 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6751002c5bb87e11fb04fa87, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:23:01,593 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675100575bb87e11fb04fa88, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:23:31,684 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675100755bb87e11fb04fa89, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:24:01,773 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675100935bb87e11fb04fa8a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:24:18,748 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675100a45bb87e11fb04fa8b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:25:18,767 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675100e05bb87e11fb04fa8c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:26:18,766 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6751011c5bb87e11fb04fa8d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:27:18,805 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675101585bb87e11fb04fa8e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:28:18,782 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675101945bb87e11fb04fa8f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:29:18,798 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675101d05bb87e11fb04fa90, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:30:09,724 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675102035bb87e11fb04fa91, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:30:31,813 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675102195bb87e11fb04fa92, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:30:41,897 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675102235bb87e11fb04fa93, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 01:31:32,873 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-05 01:31:32,909 - app - INFO - API routes registered successfully
+2024-12-05 01:31:32,915 - app.websockets - INFO - WebSockets setup complete
+2024-12-05 01:31:32,916 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-05 01:31:32,917 - app.websockets - INFO - Static files path: /app/static
+2024-12-05 01:31:32,917 - app.websockets - INFO - Templates path: /app/templates
+2024-12-05 01:31:32,919 - app.websockets - INFO - Static directory found: /app/static
+2024-12-05 01:31:32,919 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-05 01:31:32,921 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-05 01:31:32,921 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 01:31:41,713 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:31:41,754 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:31:48,622 - app.websockets - INFO - Neue WebSocket-Verbindung: client_upka503yc
+2024-12-05 01:31:48,634 - app.websockets - ERROR - Fehler beim Broadcast an client_upka503yc: Object of type datetime is not JSON serializable
+2024-12-05 01:31:48,635 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_upka503yc
+2024-12-05 01:31:48,636 - app.websockets - ERROR - Fehler in handle_websocket: Object of type datetime is not JSON serializable
+2024-12-05 01:31:48,636 - app.websockets - ERROR - Fehler beim WebSocket-Disconnect: <starlette.websockets.WebSocket object at 0x7f048436c990>
+2024-12-05 01:31:48,637 - app.websockets - INFO - Periodic updates stopped
+2024-12-05 01:32:18,674 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:32:18,675 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:32:39,277 - root - ERROR - Fehler bei der Begriffserweiterung: module 'nltk.stem.wordnet' has no attribute 'synsets'
+2024-12-05 01:32:39,278 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag'}
+2024-12-05 01:32:39,501 - app.core.scraper - ERROR - Fehler bei der Google-Suche: <HttpError 400 when requesting https://customsearch.googleapis.com/customsearch/v1?q=Vertrag+filetype%3AFileType.PDF&cx=e0a75c7cde2904a52&start=1&num=10&key=AIzaSyC1h-KgNXVujHJINBQOPsg7p41gZPJYvyk&alt=json returned "API key expired. Please renew the API key.". Details: "[{'message': 'API key expired. Please renew the API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2024-12-05 01:32:39,502 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: Vertrag
+2024-12-05 01:32:39,503 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-05 01:32:39,504 - app.core.scraper - INFO - 
+            Session Vertrag_1733362359.276792 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 0.23 Sekunden
+            
+2024-12-05 01:32:48,669 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:32:48,670 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:33:18,680 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:33:18,683 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:33:48,675 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:33:48,676 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:34:18,680 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:34:18,681 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:34:50,454 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:34:50,455 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:35:18,721 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:35:18,726 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:35:48,742 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:35:48,743 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:36:19,484 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:36:19,485 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:36:48,764 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:36:48,766 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:37:48,760 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:37:48,762 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:38:48,779 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:38:48,780 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:39:48,772 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:39:48,774 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:40:48,777 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:40:48,778 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:41:48,767 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:41:48,769 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:42:48,773 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:42:48,775 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:43:48,791 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:43:48,791 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:44:49,094 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:44:49,095 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:45:48,786 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:45:48,789 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:46:48,797 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:46:48,800 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:47:48,787 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:47:48,787 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:48:48,789 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:48:48,790 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:49:48,799 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:49:48,803 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:50:48,789 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:50:48,792 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:51:48,805 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:51:48,807 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:52:48,816 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:52:48,821 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:53:48,804 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:53:48,805 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:54:48,807 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:54:48,808 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:55:48,818 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:55:48,821 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:56:48,828 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:56:48,916 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:57:48,827 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:57:48,828 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:58:48,809 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:58:48,814 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 01:59:48,829 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 01:59:48,830 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:00:48,842 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:00:48,845 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:01:48,824 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:01:48,825 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:02:48,821 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:02:48,822 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:03:48,817 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:03:48,818 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:04:37,593 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:04:37,594 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:04:40,161 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-05 02:11:25,968 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-05 02:11:25,997 - app - INFO - API routes registered successfully
+2024-12-05 02:11:26,006 - app.websockets - INFO - WebSockets setup complete
+2024-12-05 02:11:26,008 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-05 02:11:26,008 - app.websockets - INFO - Static files path: /app/static
+2024-12-05 02:11:26,009 - app.websockets - INFO - Templates path: /app/templates
+2024-12-05 02:11:26,009 - app.websockets - INFO - Static directory found: /app/static
+2024-12-05 02:11:26,010 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-05 02:11:26,010 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-05 02:11:26,011 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 02:11:41,955 - app.websockets - INFO - Neue WebSocket-Verbindung: client_upa6qohqg
+2024-12-05 02:11:41,956 - app.websockets - ERROR - Fehler beim Senden der Nachricht: WebSocket.send_json() got an unexpected keyword argument 'encoder'
+2024-12-05 02:12:11,686 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:12:11,687 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:12:16,487 - root - ERROR - Fehler bei der Begriffserweiterung: module 'nltk.stem.wordnet' has no attribute 'synsets'
+2024-12-05 02:12:16,488 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag'}
+2024-12-05 02:12:16,797 - app.core.scraper - ERROR - Fehler bei der Google-Suche: <HttpError 400 when requesting https://customsearch.googleapis.com/customsearch/v1?q=Vertrag+filetype%3AFileType.PDF&cx=e0a75c7cde2904a52&start=1&num=10&key=AIzaSyC1h-KgNXVujHJINBQOPsg7p41gZPJYvyk&alt=json returned "API key expired. Please renew the API key.". Details: "[{'message': 'API key expired. Please renew the API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2024-12-05 02:12:16,799 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: Vertrag
+2024-12-05 02:12:16,800 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-05 02:12:16,803 - app.core.scraper - INFO - 
+            Session Vertrag_1733364736.484439 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 0.32 Sekunden
+            
+2024-12-05 02:12:41,650 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:12:41,651 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:13:11,655 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:13:11,656 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:13:41,656 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:13:41,658 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:14:11,861 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:14:11,862 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:14:41,877 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:14:41,879 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:15:11,862 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:15:11,865 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:15:48,854 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:15:48,856 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:16:48,850 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:16:48,851 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:17:48,866 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:17:48,868 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:18:48,866 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:18:48,872 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:19:48,856 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:19:48,858 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:20:48,875 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:20:48,877 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:21:48,871 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:21:48,873 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:22:48,873 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:22:48,877 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:23:48,864 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:23:48,866 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:24:48,881 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:24:48,882 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:25:48,862 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:25:48,862 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:26:48,886 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:26:48,887 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:27:48,892 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:27:48,893 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:28:48,869 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:28:48,870 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:29:48,869 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:29:48,871 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:30:48,893 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:30:48,894 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:31:48,874 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:31:48,879 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:32:48,878 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:32:48,880 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:33:48,880 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:33:48,880 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:34:16,931 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 02:34:16,935 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 02:34:20,448 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_upa6qohqg
+2024-12-05 02:34:20,547 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-05 02:35:05,567 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-05 02:35:05,597 - app - INFO - API routes registered successfully
+2024-12-05 02:35:05,600 - app.websockets - INFO - WebSockets setup complete
+2024-12-05 02:35:05,601 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-05 02:35:05,602 - app.websockets - INFO - Static files path: /app/static
+2024-12-05 02:35:05,602 - app.websockets - INFO - Templates path: /app/templates
+2024-12-05 02:35:05,603 - app.websockets - INFO - Static directory found: /app/static
+2024-12-05 02:35:05,604 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-05 02:35:05,604 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-05 02:35:05,605 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 02:35:20,055 - app.websockets - INFO - Neue WebSocket-Verbindung: client_cxn7aj0m7
+2024-12-05 02:35:41,978 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6751115fa750d7fa992ddc8f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:35:47,942 - root - ERROR - Fehler bei der Begriffserweiterung: module 'nltk.stem.wordnet' has no attribute 'synsets'
+2024-12-05 02:35:47,943 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag'}
+2024-12-05 02:35:48,114 - googleapiclient.http - WARNING - Encountered 403 Forbidden with reason "forbidden"
+2024-12-05 02:35:48,122 - app.core.scraper - ERROR - Fehler bei der Google-Suche: <HttpError 403 when requesting https://customsearch.googleapis.com/customsearch/v1?q=Vertrag+filetype%3AFileType.PDF&start=1&num=10&alt=json returned "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.". Details: "[{'message': "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.", 'domain': 'global', 'reason': 'forbidden'}]">
+2024-12-05 02:35:48,124 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: Vertrag
+2024-12-05 02:35:48,125 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-05 02:35:48,127 - app.core.scraper - INFO - 
+            Session Vertrag_1733366147.942196 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 0.19 Sekunden
+            
+2024-12-05 02:36:19,490 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511185a750d7fa992ddc90, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:36:49,615 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675111a3a750d7fa992ddc91, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:37:19,680 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675111c1a750d7fa992ddc92, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:37:49,931 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675111dfa750d7fa992ddc93, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:38:20,013 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675111fda750d7fa992ddc94, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:39:18,967 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511238a750d7fa992ddc95, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:40:18,957 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511274a750d7fa992ddc96, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:41:18,963 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675112b0a750d7fa992ddc97, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:42:18,962 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675112eca750d7fa992ddc98, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:43:19,005 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511328a750d7fa992ddc99, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:44:18,954 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511364a750d7fa992ddc9a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:45:18,957 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675113a0a750d7fa992ddc9b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:46:18,966 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675113dca750d7fa992ddc9c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:47:18,985 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511418a750d7fa992ddc9d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:48:18,963 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511454a750d7fa992ddc9e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:49:18,966 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511490a750d7fa992ddc9f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:50:18,949 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675114cca750d7fa992ddca0, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:51:18,954 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511508a750d7fa992ddca1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:52:18,962 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511544a750d7fa992ddca2, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:53:18,957 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511580a750d7fa992ddca3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:54:18,952 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675115bca750d7fa992ddca4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:55:18,961 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675115f8a750d7fa992ddca5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:56:18,967 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511634a750d7fa992ddca6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:57:18,989 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511670a750d7fa992ddca7, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 02:57:56,027 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_cxn7aj0m7
+2024-12-05 02:59:21,315 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-05 02:59:21,347 - app - INFO - API routes registered successfully
+2024-12-05 02:59:21,350 - app.websockets - INFO - WebSockets setup complete
+2024-12-05 02:59:21,353 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-05 02:59:21,353 - app.websockets - INFO - Static files path: /app/static
+2024-12-05 02:59:21,354 - app.websockets - INFO - Templates path: /app/templates
+2024-12-05 02:59:21,355 - app.websockets - INFO - Static directory found: /app/static
+2024-12-05 02:59:21,356 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-05 02:59:21,357 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-05 02:59:21,357 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 02:59:39,711 - app.websockets - INFO - Neue WebSocket-Verbindung: client_g8iryhzwm
+2024-12-05 02:59:59,330 - root - ERROR - Fehler bei der Begriffserweiterung: module 'nltk.stem.wordnet' has no attribute 'synsets'
+2024-12-05 02:59:59,330 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag'}
+2024-12-05 02:59:59,331 - app.core.scraper - INFO - Search request with key: AIzaSyD24mgLdmTVXY_ODuzqDCOXw9fAB8KewrQ
+2024-12-05 02:59:59,332 - app.core.scraper - INFO - Search request with CSE ID: None
+2024-12-05 02:59:59,557 - app.core.scraper - ERROR - Fehler bei der Google-Suche: <HttpError 400 when requesting https://customsearch.googleapis.com/customsearch/v1?q=Vertrag+filetype%3AFileType.PDF&start=1&num=10&key=AIzaSyD24mgLdmTVXY_ODuzqDCOXw9fAB8KewrQ&alt=json returned "Request contains an invalid argument.". Details: "[{'message': 'Request contains an invalid argument.', 'domain': 'global', 'reason': 'badRequest'}]">
+2024-12-05 02:59:59,558 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: Vertrag
+2024-12-05 02:59:59,560 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-05 02:59:59,563 - app.core.scraper - INFO - 
+            Session Vertrag_1733367599.329551 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 0.23 Sekunden
+            
+2024-12-05 03:00:38,971 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511738d295459cbf92804e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 03:01:09,085 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511756d295459cbf92804f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 03:01:39,207 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511775d295459cbf928050, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 03:02:09,327 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67511793d295459cbf928051, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 03:02:39,422 - app.database - ERROR - MongoDB Verbindungsfehler: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 675117b1d295459cbf928052, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-05 03:02:40,553 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_g8iryhzwm
+2024-12-05 22:51:03,863 - app.core.scraper - INFO - NLTK Daten erfolgreich geladen
+2024-12-05 22:51:03,881 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-05 22:51:03,916 - app - INFO - API routes registered successfully
+2024-12-05 22:51:03,919 - app.websockets - INFO - WebSockets setup complete
+2024-12-05 22:51:03,920 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-05 22:51:03,921 - app.websockets - INFO - Static files path: /app/static
+2024-12-05 22:51:03,921 - app.websockets - INFO - Templates path: /app/templates
+2024-12-05 22:51:03,922 - app.websockets - INFO - Static directory found: /app/static
+2024-12-05 22:51:03,923 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-05 22:51:03,925 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-05 22:51:03,925 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-05 22:51:32,969 - app.websockets - INFO - Neue WebSocket-Verbindung: client_2xioacxs3
+2024-12-05 22:52:03,213 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-05 22:52:03,263 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 22:52:03,264 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 22:52:33,210 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-05 22:52:33,233 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 22:52:33,235 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 22:52:42,963 - root - ERROR - Fehler bei der Begriffserweiterung: module 'nltk.stem.wordnet' has no attribute 'synsets'
+2024-12-05 22:52:42,964 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag'}
+2024-12-05 22:52:42,965 - app.core.scraper - INFO - Search request with key: AIzaSyD24mgLdmTVXY_ODuzqDCOXw9fAB8KewrQ
+2024-12-05 22:52:42,966 - app.core.scraper - INFO - Search request with CSE ID: e0a75c7cde2904a52
+2024-12-05 22:52:43,510 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: Vertrag
+2024-12-05 22:52:43,512 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-05 22:52:43,515 - app.core.scraper - INFO - 
+            Session Vertrag_1733439162.962495 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 0.55 Sekunden
+            
+2024-12-05 22:53:02,974 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-05 22:53:03,007 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 22:53:03,083 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 22:53:32,975 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-05 22:53:33,003 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 22:53:33,004 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 22:54:03,209 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-05 22:54:03,232 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 22:54:03,234 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 22:54:33,217 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-05 22:54:33,236 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-05 22:54:33,242 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-05 22:54:45,002 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_2xioacxs3
+2024-12-05 22:54:45,102 - app.websockets - INFO - Shutting down Neural Document Acquisition System

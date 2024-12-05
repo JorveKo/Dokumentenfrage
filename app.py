@@ -23,18 +23,27 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
-# Router und WebSocket-Handler einbinden
+# Router und WebSocket Handler einbinden
 app.include_router(router)
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 @app.websocket("/ws/{client_id}")
 async def websocket_endpoint(websocket: WebSocket, client_id: str):
-    await websocket_manager.connect(websocket, client_id)
+    logger.debug(f"New WebSocket connection from client {client_id}")
     try:
+        await websocket_manager.connect(websocket, client_id)
+        logger.debug(f"Client {client_id} connected successfully")
         while True:
             data = await websocket.receive_json()
+            logger.debug(f"Received message from client {client_id}: {data}")
             await websocket_manager.handle_message(websocket, data)
     except WebSocketDisconnect:
+        logger.debug(f"Client {client_id} disconnected")
         await websocket_manager.disconnect(websocket)
+    except Exception as e:
+        logger.error(f"Error in websocket connection: {str(e)}")
 
 if __name__ == "__main__":
     import uvicorn

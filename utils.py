@@ -9,6 +9,7 @@ from urllib.parse import urlparse
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+from nltk.corpus import wordnet
 import numpy as np
 from config import DOMAIN_TERMS, SUPPORTED_FILE_TYPES
 
@@ -132,7 +133,7 @@ class TermExpander:
         
         try:
             # WordNet-Synonyme
-            for syn in nltk.wordnet.synsets(term, lang='deu'):
+            for syn in wordnet.synsets(term, lang='deu'):
                 expanded_terms.update(lemma.name() for lemma in syn.lemmas())
                 
                 # Verwandte Begriffe

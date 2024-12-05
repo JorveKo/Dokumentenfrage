@@ -26,6 +26,7 @@ class DatabaseManager:
     async def connect(self) -> bool:
         """Stellt Verbindung zur Datenbank her"""
         try:
+            logger.info(f"Versuche Verbindung mit URI: {MONGODB_URI}")
             self.client = AsyncIOMotorClient(MONGODB_URI)
             await self.client.server_info()  # Test connection
             self.db = self.client[DB_NAME]
@@ -39,6 +40,7 @@ class DatabaseManager:
             
         except ConnectionError as e:
             logger.error(f"MongoDB Verbindungsfehler: {str(e)}")
+            logger.error(f"Verwendete URI: {MONGODB_URI}")
             self.connected = False
             return False
             

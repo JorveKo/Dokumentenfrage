@@ -1,7 +1,13 @@
 # config.py
 import os
+import logging
 from pathlib import Path
+from dotenv import load_dotenv
 
+logger = logging.getLogger(__name__)
+
+# .env Datei laden
+load_dotenv()
 # Basis-Verzeichnis
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -16,13 +22,15 @@ for directory in [DOWNLOADS_DIR, STATIC_DIR, TEMPLATES_DIR, LOGS_DIR]:
     directory.mkdir(parents=True, exist_ok=True)
 
 # API Konfiguration
-GOOGLE_API_KEY = "AIzaSyC1h-KgNXVujHJINBQOPsg7p41gZPJYvyk"
-GOOGLE_CSE_ID = "e0a75c7cde2904a52"
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+GOOGLE_CSE_ID = os.getenv('SEARCH_ENGINE_ID')
 
 # Datenbankeinstellungen
-MONGODB_URI = "mongodb://localhost:27017/"
+mongodb_uri = os.getenv('MONGODB_URI')
+logger.info(f"Loaded MONGODB_URI from env: {mongodb_uri}")
 DB_NAME = "document_scraper"
-
+MONGODB_URI = mongodb_uri or "mongodb://mongodb:27017/"
+logger.info(f"Using MONGODB_URI: {MONGODB_URI}")
 # Logo-Einstellungen
 LOGO_FILE = STATIC_DIR / "images" / "logo.png"
 

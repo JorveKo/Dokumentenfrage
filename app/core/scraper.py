@@ -10,7 +10,8 @@ import asyncio
 from datetime import datetime
 from typing import List, Dict, Set, Optional
 from dataclasses import dataclass
-
+import nltk
+from nltk.corpus import wordnet
 from googleapiclient.discovery import build
 import aiohttp
 
@@ -28,6 +29,24 @@ from .downloader import document_downloader
 from .processor import document_processor
 
 logger = logging.getLogger(__name__)
+
+# NLTK Downloads beim Start
+try:
+    nltk.download('wordnet')
+    nltk.download('omw-1.4')
+    logger.info("NLTK Daten erfolgreich geladen")
+except Exception as e:
+    logger.error(f"Fehler beim Download der NLTK Daten: {str(e)}")
+
+
+MAX_DAILY_REQUESTS = 500
+CURRENT_REQUESTS = 0
+
+async def check_api_limits():
+    global CURRENT_REQUESTS
+    if CURRENT_REQUESTS >= MAX_DAILY_REQUESTS:
+        raise Exception("Tägliches API-Limit erreicht")
+    CURRENT_REQUESTS += 1
 
 @dataclass
 class ScrapingSession:
@@ -54,7 +73,9 @@ class ScraperEngine:
         self.stats = ScrapingStats()
         self.active_sessions: Dict[str, ScrapingSession] = {}
         self.session: Optional[aiohttp.ClientSession] = None
-        
+
+ 
+
     async def init_session(self):
         """Initialisiert die HTTP Session"""
         if not self.session:
@@ -168,7 +189,11 @@ class ScraperEngine:
     async def _search_documents(self, term: str, file_type: str, max_results: int) -> List[Dict]:
         """Führt die Google-Suche durch"""
         try:
-            await rate_limiter.acquire()
+            # Debug-Logs hinzufügen
+            logger.info(f"Search request with key: {GOOGLE_API_KEY}")
+            logger.info(f"Search request with CSE ID: {GOOGLE_CSE_ID}")
+            
+            await check_api_limits()
             file_type_str = f"filetype:{file_type}"
             results = []
             

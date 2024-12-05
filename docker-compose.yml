@@ -13,6 +13,8 @@ services:
     networks:
       - scraper-network
     restart: unless-stopped  # Automatisch neustarten, wenn der Container stoppt
+    env_file:
+      - docker/config/development.env
 
   mongodb:
     image: mongo:latest  # Offizielles MongoDB-Image

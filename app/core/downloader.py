@@ -3,17 +3,17 @@ import logging
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, Dict
-import hashlib
-
 import aiohttp
 import aiofiles
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 from config import (
-    DOWNLOADS_DIR, REQUEST_TIMEOUT, CHUNK_SIZE,
-    SUPPORTED_FILE_TYPES, MAX_RETRIES
+    DOWNLOADS_DIR, 
+    REQUEST_TIMEOUT, 
+    CHUNK_SIZE,
+    MAX_RETRIES
 )
-from utils import file_processor
+from app.utils.file.file_processor import file_processor
 
 logger = logging.getLogger(__name__)
 

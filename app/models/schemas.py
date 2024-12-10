@@ -1,6 +1,10 @@
-# models.py
+"""
+Datenmodelle für den Document Scraper.
+Definiert alle Pydantic Models für die Anwendung.
+"""
+
 from datetime import datetime
-from typing import Optional, List, Dict
+from typing import Optional, Set, List, Dict
 from pydantic import BaseModel, Field, HttpUrl, validator
 from enum import Enum
 
@@ -8,7 +12,7 @@ class FileType(str, Enum):
     """Unterstützte Dateitypen"""
     PDF = "pdf"
     DOC = "doc"
-    DOCX = "docx"
+    DOCX = "docx" 
 
 class DocumentMetadata(BaseModel):
     """Metadaten für ein Dokument"""
@@ -35,7 +39,7 @@ class ScrapingStatus(BaseModel):
     current_term: str = ""
     progress: float = 0
     total_documents: int = 0
-    completed_terms: List[str] = Field(default_factory=list)
+    completed_terms: Set[str] = set() 
     error: Optional[str] = None
     api_costs: float = 0
     downloaded_files: int = 0
@@ -43,7 +47,9 @@ class ScrapingStatus(BaseModel):
     failed_downloads: int = 0
     total_bytes: int = 0
     processing_speed: float = 0
-    
+    class Config:
+        arbitrary_types_allowed = True
+
     @property
     def success_rate(self) -> float:
         """Berechnet die Erfolgsrate der Downloads"""

@@ -9,8 +9,8 @@ from pymongo.errors import DuplicateKeyError
 from pymongo.errors import ServerSelectionTimeoutError as ConnectionError  # Geändert
 
 
-from config import MONGODB_URI, DB_NAME
-from models import DocumentMetadata, ScrapingStats
+from app.config import MONGODB_URI, DB_NAME
+from app.models.schemas import DocumentMetadata, ScrapingStats
 
 logger = logging.getLogger(__name__)
 

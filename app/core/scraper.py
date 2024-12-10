@@ -5,16 +5,14 @@ Verwaltet den gesamten Scraping-Prozess, Sessions und die Koordination
 zwischen Suche, Download und Verarbeitung.
 """
 
-import logging
-import asyncio
-from datetime import datetime
 from typing import List, Dict, Set, Optional
 from dataclasses import dataclass
-import nltk
-from nltk.corpus import wordnet
+from datetime import datetime
+import logging
+import asyncio
 from googleapiclient.discovery import build
 import aiohttp
-
+from .session import ScrapingSession  # Neue Import-Zeile
 from config import (
     GOOGLE_API_KEY, 
     GOOGLE_CSE_ID, 
@@ -23,20 +21,17 @@ from config import (
     BATCH_SIZE
 )
 from models import ScrapingStatus, ScrapingStats, DocumentMetadata
-from utils import text_processor, term_expander, rate_limiter
-from app.database import db_manager
+from app.utils.text.text_processor import text_processor
+from app.utils.term.term_expander import term_expander
+from app.utils.rate_limit.rate_limiter import rate_limiter  # Diese Klasse müssen wir noch erstellen
+from app.database.manager import db_manager
 from .downloader import document_downloader
 from .processor import document_processor
 
+
 logger = logging.getLogger(__name__)
 
-# NLTK Downloads beim Start
-try:
-    nltk.download('wordnet')
-    nltk.download('omw-1.4')
-    logger.info("NLTK Daten erfolgreich geladen")
-except Exception as e:
-    logger.error(f"Fehler beim Download der NLTK Daten: {str(e)}")
+
 
 
 MAX_DAILY_REQUESTS = 500
@@ -48,18 +43,7 @@ async def check_api_limits():
         raise Exception("Tägliches API-Limit erreicht")
     CURRENT_REQUESTS += 1
 
-@dataclass
-class ScrapingSession:
-    """Speichert den Zustand einer Scraping-Session"""
-    term: str
-    file_type: str
-    max_results: int
-    similarity_threshold: float
-    start_time: datetime
-    processed_urls: Set[str] = None
-    successful_downloads: int = 0
-    failed_downloads: int = 0
-    total_bytes: int = 0
+
     
     def __post_init__(self):
         self.processed_urls = set()
@@ -150,6 +134,9 @@ class ScraperEngine:
             # Suche Dokumente
             search_results = await self._search_documents(term, session.file_type, 
                                                         session.max_results)
+            # Debug-Log
+            logger.debug(f"Typ von session.processed_urls: {type(session.processed_urls)}")
+            logger.debug(f"Typ von search_results: {type(search_results)}")
             
             if not search_results:
                 logger.warning(f"Keine Ergebnisse gefunden für Term: {term}")
@@ -158,6 +145,12 @@ class ScraperEngine:
             # Erstelle Download-Tasks
             tasks = []
             for result in search_results:
+                # Debug-Log
+                logger.debug(f"Verarbeite URL: {result.get('link')}")
+                logger.debug(f"processed_urls vor add: {session.processed_urls}")
+                
+
+                    
                 if result['link'] not in session.processed_urls:
                     session.processed_urls.add(result['link'])
                     tasks.append(self._process_search_result(
@@ -185,7 +178,7 @@ class ScraperEngine:
             
         except Exception as e:
             logger.error(f"Fehler bei der Verarbeitung von Term '{term}': {str(e)}")
-            
+        
     async def _search_documents(self, term: str, file_type: str, max_results: int) -> List[Dict]:
         """Führt die Google-Suche durch"""
         try:

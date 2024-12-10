@@ -8,6 +8,8 @@ services:
     volumes:
       - ./downloads:/app/downloads  # Verzeichnis für heruntergeladene Dateien
       - ./logs:/app/logs  # Verzeichnis für Logs
+      - ./static:/app/static  # Statische Dateien
+      - ./templates:/app/templates  # Template-Dateien
     depends_on:
       - mongodb  # MongoDB-Service muss vor dem Web-Service starten
     networks:
@@ -22,6 +24,7 @@ services:
       - "27017:27017"  # Zugriff auf MongoDB
     volumes:
       - mongodb_data:/data/db  # Persistente Speicherung der MongoDB-Daten
+      - ./docker/scripts/init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh  # Datenbank-Initialisierung
     env_file:
       - docker/config/development.env  # Umgebungsvariablen für MongoDB
     networks:

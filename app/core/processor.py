@@ -4,13 +4,13 @@ import asyncio
 from typing import Optional, Dict
 from datetime import datetime
 import hashlib
-
-import aiofiles
 from langdetect import detect
+import aiofiles
 
 from config import DOWNLOADS_DIR, SUPPORTED_FILE_TYPES
-from app.database import db_manager
-from utils import text_processor, file_processor
+from app.database.manager import db_manager
+from app.utils.text.text_processor import text_processor
+from app.utils.file.file_processor import file_processor
 
 logger = logging.getLogger(__name__)
 

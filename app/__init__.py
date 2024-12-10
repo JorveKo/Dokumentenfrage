@@ -1,15 +1,20 @@
 # app/__init__.py
 import logging
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+
 
 print("Initializing FastAPI application...")
 
 # Import configuration first
-from config import (
-    STATIC_DIR, TEMPLATES_DIR, LOGS_DIR, 
-    LOG_LEVEL, LOG_FORMAT, LOG_FILE,
+from app.config import (
+    STATIC_DIR, 
+    TEMPLATES_DIR, 
+    LOGS_DIR, 
+    LOG_LEVEL, 
+    LOG_FORMAT, 
+    LOG_FILE,
     LOGO_FILE
 )
 
@@ -74,7 +79,7 @@ async def shutdown_event():
 # Import and register routes
 print("Registering routes...")
 try:
-    from app.routes import router
+    from app.api.routes import router
     app.include_router(router)
     logger.info("API routes registered successfully")
 except Exception as e:
@@ -84,7 +89,7 @@ except Exception as e:
 # Import websockets!
 print("Setting up websockets...")
 try:
-    from app.websockets import *
+    from app.api.websocket import websocket_manager
     logger.info("WebSockets setup complete")
 except Exception as e:
     logger.error(f"Failed to setup websockets: {str(e)}")

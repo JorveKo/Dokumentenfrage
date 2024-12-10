@@ -492,3 +492,391 @@
 2024-12-05 22:54:33,242 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
 2024-12-05 22:54:45,002 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_2xioacxs3
 2024-12-05 22:54:45,102 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-06 21:14:14,425 - app - ERROR - Failed to register routes: No module named 'utils'
+2024-12-06 21:20:42,413 - app.utils.term_expander - INFO - NLTK Daten erfolgreich geladen
+2024-12-06 21:20:49,365 - app.utils.text_processor - INFO - NLTK erfolgreich initialisiert
+2024-12-06 21:20:49,817 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-06 21:20:49,878 - app - INFO - API routes registered successfully
+2024-12-06 21:20:49,889 - app.websockets - INFO - WebSockets setup complete
+2024-12-06 21:20:49,892 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-06 21:20:49,892 - app.websockets - INFO - Static files path: /app/static
+2024-12-06 21:20:49,893 - app.websockets - INFO - Templates path: /app/templates
+2024-12-06 21:20:49,894 - app.websockets - INFO - Static directory found: /app/static
+2024-12-06 21:20:49,896 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-06 21:20:49,898 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-06 21:20:49,900 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-06 21:21:03,700 - app.websockets - INFO - Neue WebSocket-Verbindung: client_4kcz0i9mq
+2024-12-06 21:21:26,207 - app.utils.term_expander - ERROR - Fehler bei der Begriffserweiterung für 'Vertrag': Language is not supported.
+2024-12-06 21:21:26,208 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag'}
+2024-12-06 21:21:26,209 - app.core.scraper - INFO - Search request with key: AIzaSyD24mgLdmTVXY_ODuzqDCOXw9fAB8KewrQ
+2024-12-06 21:21:26,213 - app.core.scraper - INFO - Search request with CSE ID: e0a75c7cde2904a52
+2024-12-06 21:21:26,706 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: Vertrag
+2024-12-06 21:21:26,709 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-06 21:21:26,720 - app.core.scraper - INFO - 
+            Session Vertrag_1733520084.038065 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 2.68 Sekunden
+            
+2024-12-06 21:21:33,662 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:21:33,766 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:21:33,767 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:22:03,673 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:22:03,722 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:22:03,724 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:22:34,375 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:22:34,389 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:22:34,404 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:23:04,378 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:23:04,405 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:23:04,408 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:23:34,506 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:23:34,521 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:23:34,521 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:24:21,376 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:24:21,419 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:24:21,420 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:25:21,377 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:25:21,388 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:25:21,388 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:26:21,402 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:26:21,470 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:26:21,478 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:27:21,935 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:27:21,951 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:27:21,951 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:28:21,380 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:28:21,402 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:28:21,405 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:29:21,374 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:29:21,392 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:29:21,393 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:30:21,378 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:30:21,389 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:30:21,390 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:31:08,361 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:31:08,387 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:31:08,387 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:31:11,931 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_4kcz0i9mq
+2024-12-06 21:31:12,032 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-06 21:32:46,331 - app.utils.term_expander - INFO - NLTK Daten erfolgreich geladen
+2024-12-06 21:32:46,536 - app.utils.text_processor - INFO - NLTK erfolgreich initialisiert
+2024-12-06 21:32:46,970 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-06 21:32:47,017 - app - INFO - API routes registered successfully
+2024-12-06 21:32:47,024 - app.websockets - INFO - WebSockets setup complete
+2024-12-06 21:32:47,027 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-06 21:32:47,028 - app.websockets - INFO - Static files path: /app/static
+2024-12-06 21:32:47,029 - app.websockets - INFO - Templates path: /app/templates
+2024-12-06 21:32:47,031 - app.websockets - INFO - Static directory found: /app/static
+2024-12-06 21:32:47,032 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-06 21:32:47,034 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-06 21:32:47,035 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-06 21:33:04,375 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:33:04,419 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:33:04,421 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:33:34,376 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:33:34,392 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:33:34,393 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:34:21,366 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:34:21,382 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:34:21,382 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:34:33,674 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:34:33,694 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:34:33,695 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:34:50,021 - app.websockets - INFO - Neue WebSocket-Verbindung: client_f2sdwvpw2
+2024-12-06 21:34:58,542 - app.utils.term_expander - ERROR - Fehler bei der Begriffserweiterung für 'Vertrag': Language is not supported.
+2024-12-06 21:34:58,591 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag'}
+2024-12-06 21:34:58,622 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'ScraperEngine' object has no attribute '_process_term'
+2024-12-06 21:34:58,627 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<ScraperEngine._run_scraping() done, defined at /app/app/core/scraper.py:110> exception=AttributeError("'ScraperEngine' object has no attribute '_cleanup_session'")>
+Traceback (most recent call last):
+  File "/app/app/core/scraper.py", line 140, in _run_scraping
+    await self._cleanup_session(session_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ScraperEngine' object has no attribute '_cleanup_session'
+2024-12-06 21:35:19,535 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:35:19,589 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:35:19,591 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:35:50,372 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:35:50,382 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:35:50,383 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:36:20,376 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:36:20,396 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:36:20,397 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:36:50,384 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:36:50,408 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:36:50,453 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:37:20,370 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:37:20,394 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:37:20,395 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:38:21,407 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:38:21,427 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:38:21,430 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:39:21,369 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:39:21,377 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:39:21,378 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:40:21,372 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:40:21,383 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:40:21,384 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:41:21,376 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:41:21,398 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:41:21,406 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:42:21,382 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:42:21,393 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:42:21,401 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:43:21,375 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:43:21,395 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:43:21,396 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:44:21,387 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:44:21,416 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:44:21,421 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:45:21,376 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:45:21,390 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:45:21,391 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:46:21,369 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:46:21,383 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:46:21,384 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:47:21,378 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:47:21,406 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:47:21,424 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:48:21,382 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:48:21,400 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:48:21,405 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:49:21,374 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 21:49:21,389 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 21:49:21,390 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 21:49:43,407 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_f2sdwvpw2
+2024-12-06 21:49:43,508 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-06 22:02:08,666 - app.utils.term_expander - INFO - NLTK Daten erfolgreich geladen
+2024-12-06 22:02:08,999 - app.utils.text_processor - INFO - NLTK erfolgreich initialisiert
+2024-12-06 22:02:09,386 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-06 22:02:09,466 - app - INFO - API routes registered successfully
+2024-12-06 22:02:09,506 - app.websockets - INFO - WebSockets setup complete
+2024-12-06 22:02:09,559 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-06 22:02:09,615 - app.websockets - INFO - Static files path: /app/static
+2024-12-06 22:02:09,636 - app.websockets - INFO - Templates path: /app/templates
+2024-12-06 22:02:09,637 - app.websockets - INFO - Static directory found: /app/static
+2024-12-06 22:02:09,640 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-06 22:02:09,641 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-06 22:02:09,643 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-06 22:02:21,391 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:02:21,438 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:02:21,441 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:03:19,615 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:03:19,627 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:03:19,627 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:03:40,129 - app.websockets - INFO - Neue WebSocket-Verbindung: client_6bnee14x8
+2024-12-06 22:03:50,673 - app.utils.term_expander - WARNING - WordNet-Erweiterung nicht möglich: Language is not supported.
+2024-12-06 22:03:50,678 - app.core.scraper - INFO - Erweiterte Begriffe: {'doku_Vertrag', 'Vertrag_bericht', 'Vertrag_dokumentation', 'handbuch_Vertrag', 'dokument_Vertrag', 'Vertrag_dokument', 'bericht_Vertrag', 'Vertrag_analyse', 'vertrag_Vertrag', 'analyse_Vertrag', 'anleitung_Vertrag', 'Vertrag_handbuch', 'dokumentation_Vertrag', 'Vertrag_vertrag', 'spezifikation_Vertrag', 'Vertrag_anleitung', 'Vertrag', 'Vertrag_spezifikation'}
+2024-12-06 22:03:50,681 - app.core.scraper - INFO - Search request with key: AIzaSyD24mgLdmTVXY_ODuzqDCOXw9fAB8KewrQ
+2024-12-06 22:03:50,691 - app.core.scraper - INFO - Search request with CSE ID: e0a75c7cde2904a52
+2024-12-06 22:03:51,141 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: doku_Vertrag
+2024-12-06 22:03:51,142 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-06 22:03:51,145 - app.core.scraper - INFO - 
+            Session Vertrag_1733522629.040826 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 2.10 Sekunden
+            
+2024-12-06 22:04:10,134 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:04:10,154 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:04:10,155 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:04:40,145 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:04:40,187 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:04:40,188 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:05:10,367 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:05:10,386 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:05:10,387 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:05:40,370 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:05:40,380 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:05:40,380 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:06:10,372 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:06:10,389 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:06:10,400 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:07:11,581 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:07:11,610 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:07:11,611 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:08:12,372 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:08:12,381 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:08:12,381 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:09:13,370 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:09:13,384 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:09:13,384 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:10:14,481 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:10:14,496 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:10:14,502 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:11:15,387 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:11:15,413 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:11:15,414 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:12:07,366 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:12:07,404 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:12:07,407 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:12:10,613 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:12:10,624 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:12:10,625 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:12:40,393 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:12:40,402 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:12:40,404 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:13:10,372 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:13:10,392 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:13:10,392 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:13:40,363 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:13:40,378 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:13:40,379 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:14:21,376 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:14:21,387 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:14:21,387 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:15:21,379 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:15:21,388 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:15:21,388 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:16:21,381 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:16:21,396 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:16:21,397 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:16:44,279 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:16:44,299 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:16:44,300 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:16:48,820 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_6bnee14x8
+2024-12-06 22:16:48,920 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-06 22:17:50,623 - app.utils.term_expander - INFO - NLTK Daten erfolgreich geladen
+2024-12-06 22:17:50,771 - app.utils.text_processor - INFO - NLTK erfolgreich initialisiert
+2024-12-06 22:17:51,007 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-06 22:17:51,048 - app - INFO - API routes registered successfully
+2024-12-06 22:17:51,168 - app.websockets - INFO - WebSockets setup complete
+2024-12-06 22:17:51,171 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-06 22:17:51,172 - app.websockets - INFO - Static files path: /app/static
+2024-12-06 22:17:51,180 - app.websockets - INFO - Templates path: /app/templates
+2024-12-06 22:17:51,183 - app.websockets - INFO - Static directory found: /app/static
+2024-12-06 22:17:51,186 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-06 22:17:51,189 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-06 22:17:51,191 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-06 22:18:10,837 - app.websockets - INFO - Neue WebSocket-Verbindung: client_ylatmrib1
+2024-12-06 22:18:20,050 - app.utils.term_expander - WARNING - WordNet-Erweiterung nicht möglich: Language is not supported.
+2024-12-06 22:18:20,050 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag_analyse', 'Vertrag_dokument', 'bericht_Vertrag', 'dokument_Vertrag', 'Vertrag_bericht', 'spezifikation_Vertrag', 'anleitung_Vertrag', 'Vertrag_handbuch', 'Vertrag_dokumentation', 'doku_Vertrag', 'Vertrag_spezifikation', 'Vertrag_anleitung', 'vertrag_Vertrag', 'Vertrag', 'Vertrag_vertrag', 'handbuch_Vertrag', 'dokumentation_Vertrag', 'analyse_Vertrag'}
+2024-12-06 22:18:20,051 - app.core.scraper - INFO - Search request with key: AIzaSyD24mgLdmTVXY_ODuzqDCOXw9fAB8KewrQ
+2024-12-06 22:18:20,058 - app.core.scraper - INFO - Search request with CSE ID: e0a75c7cde2904a52
+2024-12-06 22:18:20,756 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: Vertrag_analyse
+2024-12-06 22:18:20,765 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-06 22:18:20,766 - app.core.scraper - INFO - 
+            Session Vertrag_1733523497.729792 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 3.04 Sekunden
+            
+2024-12-06 22:18:40,355 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:18:40,425 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:18:40,427 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:18:58,715 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_ylatmrib1
+2024-12-06 22:18:58,814 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-06 22:25:11,176 - app.utils.term_expander - INFO - NLTK Daten erfolgreich geladen
+2024-12-06 22:25:11,358 - app.utils.text_processor - INFO - NLTK erfolgreich initialisiert
+2024-12-06 22:25:11,663 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-06 22:25:11,688 - app - INFO - API routes registered successfully
+2024-12-06 22:25:11,694 - app.websockets - INFO - WebSockets setup complete
+2024-12-06 22:25:11,697 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-06 22:25:11,698 - app.websockets - INFO - Static files path: /app/static
+2024-12-06 22:25:11,702 - app.websockets - INFO - Templates path: /app/templates
+2024-12-06 22:25:11,704 - app.websockets - INFO - Static directory found: /app/static
+2024-12-06 22:25:11,705 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-06 22:25:11,711 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-06 22:25:11,714 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-06 22:25:40,353 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:25:40,381 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:25:40,381 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:25:52,971 - app.websockets - INFO - Neue WebSocket-Verbindung: client_tp5axwyr1
+2024-12-06 22:26:04,002 - app.utils.term_expander - WARNING - WordNet-Erweiterung nicht möglich: Language is not supported.
+2024-12-06 22:26:04,018 - app.core.scraper - INFO - Erweiterte Begriffe: {'Vertrag_handbuch', 'doku_Vertrag', 'Vertrag_analyse', 'Vertrag_anleitung', 'dokumentation_Vertrag', 'Vertrag_vertrag', 'Vertrag_spezifikation', 'Vertrag', 'analyse_Vertrag', 'dokument_Vertrag', 'Vertrag_dokument', 'Vertrag_bericht', 'vertrag_Vertrag', 'Vertrag_dokumentation', 'spezifikation_Vertrag', 'bericht_Vertrag', 'handbuch_Vertrag', 'anleitung_Vertrag'}
+2024-12-06 22:26:04,027 - app.core.scraper - INFO - Search request with key: AIzaSyD24mgLdmTVXY_ODuzqDCOXw9fAB8KewrQ
+2024-12-06 22:26:04,057 - app.core.scraper - INFO - Search request with CSE ID: e0a75c7cde2904a52
+2024-12-06 22:26:04,570 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: Vertrag_handbuch
+2024-12-06 22:26:04,582 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-06 22:26:04,594 - app.core.scraper - INFO - 
+            Session Vertrag_1733523961.370906 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 3.22 Sekunden
+            
+2024-12-06 22:26:22,795 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:26:22,838 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:26:22,841 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:26:52,792 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:26:52,863 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:26:52,899 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:27:24,847 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:27:24,970 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:27:24,970 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:27:53,412 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:27:53,432 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:27:53,433 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:28:23,370 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:28:23,380 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:28:23,382 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:29:21,373 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:29:21,386 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:29:21,386 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:30:21,366 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:30:21,513 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:30:21,522 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:31:21,371 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:31:21,382 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:31:21,382 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:32:21,376 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:32:21,403 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:32:21,413 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:33:21,443 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:33:21,461 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:33:21,697 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:34:21,362 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:34:21,372 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:34:21,373 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:35:21,800 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:35:21,810 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:35:21,810 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:36:21,377 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:36:21,391 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:36:21,392 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:37:21,472 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:37:21,489 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:37:21,519 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:38:21,380 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:38:21,402 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:38:21,403 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:38:31,234 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_tp5axwyr1
+2024-12-06 22:38:31,335 - app.websockets - INFO - Shutting down Neural Document Acquisition System
+2024-12-06 22:39:32,482 - app.utils.term_expander - INFO - NLTK Daten erfolgreich geladen
+2024-12-06 22:39:33,272 - app.utils.text_processor - INFO - NLTK erfolgreich initialisiert
+2024-12-06 22:39:33,501 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-12-06 22:39:33,544 - app - INFO - API routes registered successfully
+2024-12-06 22:39:33,548 - app.websockets - INFO - WebSockets setup complete
+2024-12-06 22:39:33,550 - app.websockets - INFO - Starting Neural Document Acquisition System
+2024-12-06 22:39:33,553 - app.websockets - INFO - Static files path: /app/static
+2024-12-06 22:39:33,601 - app.websockets - INFO - Templates path: /app/templates
+2024-12-06 22:39:33,610 - app.websockets - INFO - Static directory found: /app/static
+2024-12-06 22:39:33,612 - app.websockets - INFO - Templates directory found: /app/templates
+2024-12-06 22:39:33,622 - app.websockets - INFO - Logs directory found: /app/logs
+2024-12-06 22:39:33,625 - app.websockets - INFO - Logo found: /app/static/images/logo.png
+2024-12-06 22:39:35,922 - app.websockets - INFO - Neue WebSocket-Verbindung: client_vlovrfz31
+2024-12-06 22:39:45,726 - app.utils.term_expander - WARNING - WordNet-Erweiterung nicht möglich: Language is not supported.
+2024-12-06 22:39:45,728 - app.core.scraper - INFO - Erweiterte Begriffe: {'dokumentation_Vertrag', 'Vertrag_dokumentation', 'Vertrag_analyse', 'handbuch_Vertrag', 'dokument_Vertrag', 'Vertrag_vertrag', 'bericht_Vertrag', 'anleitung_Vertrag', 'Vertrag_handbuch', 'Vertrag_spezifikation', 'Vertrag', 'doku_Vertrag', 'Vertrag_dokument', 'vertrag_Vertrag', 'Vertrag_bericht', 'spezifikation_Vertrag', 'Vertrag_anleitung', 'analyse_Vertrag'}
+2024-12-06 22:39:45,739 - app.core.scraper - INFO - Search request with key: AIzaSyD24mgLdmTVXY_ODuzqDCOXw9fAB8KewrQ
+2024-12-06 22:39:45,742 - app.core.scraper - INFO - Search request with CSE ID: e0a75c7cde2904a52
+2024-12-06 22:39:46,247 - app.core.scraper - WARNING - Keine Ergebnisse gefunden für Term: dokumentation_Vertrag
+2024-12-06 22:39:46,249 - app.core.scraper - ERROR - Fehler im Scraping-Prozess: 'list' object has no attribute 'add'
+2024-12-06 22:39:46,254 - app.core.scraper - INFO - 
+            Session Vertrag_1733524783.010618 abgeschlossen:
+            - Erfolgreiche Downloads: 0
+            - Fehlgeschlagene Downloads: 0
+            - Gesamtgröße: 0.00 MB
+            - Dauer: 3.24 Sekunden
+            
+2024-12-06 22:40:05,928 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:40:05,964 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:40:05,964 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:40:36,570 - app.database - INFO - Versuche Verbindung mit URI: mongodb://mongodb:27017/
+2024-12-06 22:40:36,597 - app.database - INFO - Datenbankindizes erfolgreich erstellt
+2024-12-06 22:40:36,746 - app.database - INFO - MongoDB Verbindung erfolgreich hergestellt
+2024-12-06 22:40:56,460 - app.websockets - INFO - WebSocket-Verbindung getrennt: client_vlovrfz31
+2024-12-06 22:40:56,560 - app.websockets - INFO - Shutting down Neural Document Acquisition System
